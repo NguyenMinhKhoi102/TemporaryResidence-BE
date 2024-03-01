@@ -1,0 +1,63 @@
+01, Hà Nội, Ha Noi, Thành phố Hà Nội, Ha Noi City, ha_noi, 21.02829933166504, 105.85420227050781
+26, Vĩnh Phúc, Vinh Phuc, Tỉnh Vĩnh Phúc, Vinh Phuc Province, vinh_phuc, 21.31135600040864, 105.60329439999998
+27, Bắc Ninh, Bac Ninh, Tỉnh Bắc Ninh, Bac Ninh Province, bac_ninh, 21.121205100406353, 106.0880245
+30, Hải Dương, Hai Duong, Tỉnh Hải Dương, Hai Duong Province, hai_duong, 20.944368100403302, 106.3780373
+31, Hải Phòng, Hai Phong, Thành phố Hải Phòng, Hai Phong City, hai_phong, 20.865100860595703, 106.68379974365234
+33, Hưng Yên, Hung Yen, Tỉnh Hưng Yên, Hung Yen Province, hung_yen, 20.81933690040061, 106.0314504
+34, Thái Bình, Thai Binh, Tỉnh Thái Bình, Thai Binh Province, thai_binh, 20.52968320039273, 106.3876068
+35, Hà Nam, Ha Nam, Tỉnh Hà Nam, Ha Nam Province, ha_nam, 20.526908800392647, 105.9543527
+96, Cà Mau, Ca Mau, Tỉnh Cà Mau, Ca Mau Province, ca_mau, 9.087542899403607, 105.03204699999999
+02, Hà Giang, Ha Giang, Tỉnh Hà Giang, Ha Giang Province, ha_giang, 22.6068909003969, 104.79948
+04, Cao Bằng, Cao Bang, Tỉnh Cao Bằng, Cao Bang Province, cao_bang, 22.77308670039197, 106.0017225
+06, Bắc Kạn, Bac Kan, Tỉnh Bắc Kạn, Bac Kan Province, bac_kan, 22.257170100404753, 105.85889579999998
+08, Tuyên Quang, Tuyen Quang, Tỉnh Tuyên Quang, Tuyen Quang Province, tuyen_quang, 22.125675500406818, 105.2089725
+19, Thái Nguyên, Thai Nguyen, Tỉnh Thái Nguyên, Thai Nguyen Province, thai_nguyen, 21.649850200410178, 105.8351394
+20, Lạng Sơn, Lang Son, Tỉnh Lạng Sơn, Lang Son Province, lang_son, 21.85670120040951, 106.4424353
+22, Quảng Ninh, Quang Ninh, Tỉnh Quảng Ninh, Quang Ninh Province, quang_ninh, 21.171804600407057, 107.2012742
+24, Bắc Giang, Bac Giang, Tỉnh Bắc Giang, Bac Giang Province, bac_giang, 21.309286300408615, 106.61651279999998
+25, Phú Thọ, Phu Tho, Tỉnh Phú Thọ, Phu Tho Province, phu_tho, 21.32122400040873, 105.1267207
+10, Lào Cai, Lao Cai, Tỉnh Lào Cai, Lao Cai Province, lao_cai, 22.296765700404045, 104.0566164
+11, Điện Biên, Dien Bien, Tỉnh Điện Biên, Dien Bien Province, dien_bien, 21.721012600410084, 103.04108189999998
+12, Lai Châu, Lai Chau, Tỉnh Lai Châu, Lai Chau Province, lai_chau, 22.304872800403885, 102.96288619999999
+14, Sơn La, Son La, Tỉnh Sơn La, Son La Province, son_la, 21.15085020040677, 103.88842940000002
+15, Yên Bái, Yen Bai, Tỉnh Yên Bái, Yen Bai Province, yen_bai, 21.8013688004098, 104.51480659999999
+17, Hoà Bình, Hoa Binh, Tỉnh Hoà Bình, Hoa Binh Province, hoa_binh, 20.66091770039659, 105.3924747
+70, Bình Phước, Binh Phuoc, Tỉnh Bình Phước, Binh Phuoc Province, binh_phuoc, 11.73324839955672, 106.906249
+72, Tây Ninh, Tay Ninh, Tỉnh Tây Ninh, Tay Ninh Province, tay_ninh, 11.404628999529363, 106.00339089999999
+74, Bình Dương, Binh Duong, Tỉnh Bình Dương, Binh Duong Province, binh_duong, 11.224068699515232, 106.66746809999998
+75, Đồng Nai, Dong Nai, Tỉnh Đồng Nai, Dong Nai Province, dong_nai, 11.006321199499077, 107.19218069999998
+79, Hồ Chí Minh, Ho Chi Minh, Thành phố Hồ Chí Minh, Ho Chi Minh City, ho_chi_minh, 10.77560043334961, 106.70189666748047
+77, Bà Rịa - Vũng Tàu, Ba Ria - Vung Tau, Tỉnh Bà Rịa - Vũng Tàu, Ba Ria - Vung Tau Province, ba_ria_vung_tau, 10.581979799470517, 107.2899841
+36, Nam Định, Nam Dinh, Tỉnh Nam Định, Nam Dinh Province, nam_dinh, 20.271224100383748, 106.1629895
+37, Ninh Bình, Ninh Binh, Tỉnh Ninh Bình, Ninh Binh Province, ninh_binh, 20.184483200380335, 105.9802529
+38, Thanh Hóa, Thanh Hoa, Tỉnh Thanh Hóa, Thanh Hoa Province, thanh_hoa, 20.10716940037712, 105.2124457
+40, Nghệ An, Nghe An, Tỉnh Nghệ An, Nghe An Province, nghe_an, 19.373886800338976, 104.9233469
+42, Hà Tĩnh, Ha Tinh, Tỉnh Hà Tĩnh, Ha Tinh Province, ha_tinh, 18.28790590025916, 105.78427739999998
+44, Quảng Bình, Quang Binh, Tỉnh Quảng Bình, Quang Binh Province, quang_binh, 17.54626580019112, 106.2576229
+45, Quảng Trị, Quang Tri, Tỉnh Quảng Trị, Quang Tri Province, quang_tri, 16.858135200120294, 106.8588935
+46, Thừa Thiên Huế, Thua Thien Hue, Tỉnh Thừa Thiên Huế, Thua Thien Hue Province, thua_thien_hue, 16.337537400062946, 107.55637079999998
+48, Đà Nẵng, Da Nang, Thành phố Đà Nẵng, Da Nang City, da_nang, 16.0666664, 108.2333324
+49, Quảng Nam, Quang Nam, Tỉnh Quảng Nam, Quang Nam Province, quang_nam, 15.597334399977697, 107.9758089
+51, Quảng Ngãi, Quang Ngai, Tỉnh Quảng Ngãi, Quang Ngai Province, quang_ngai, 14.963534899902973, 108.6642632
+52, Bình Định, Binh Dinh, Tỉnh Bình Định, Binh Dinh Province, binh_dinh, 14.152520099807738, 108.92396179999999
+54, Phú Yên, Phu Yen, Tỉnh Phú Yên, Phu Yen Province, phu_yen, 13.21265519970199, 109.0834225
+56, Khánh Hòa, Khanh Hoa, Tỉnh Khánh Hòa, Khanh Hoa Province, khanh_hoa, 12.196080299598565, 108.9950386
+58, Ninh Thuận, Ninh Thuan, Tỉnh Ninh Thuận, Ninh Thuan Province, ninh_thuan, 11.74497149955773, 108.8983408
+60, Bình Thuận, Binh Thuan, Tỉnh Bình Thuận, Binh Thuan Province, binh_thuan, 11.101461999506014, 107.9415938
+62, Kon Tum, Kon Tum, Tỉnh Kon Tum, Kon Tum Province, kon_tum, 14.69953719987179, 107.9323831
+64, Gia Lai, Gia Lai, Tỉnh Gia Lai, Gia Lai Province, gia_lai, 13.796406699766838, 108.2608263
+66, Đắk Lắk, Dak Lak, Tỉnh Đắk Lắk, Dak Lak Province, dak_lak, 12.839939199662458, 108.22849469999998
+67, Đắk Nông, Dak Nong, Tỉnh Đắk Nông, Dak Nong Province, dak_nong, 12.128868699592262, 107.58742609999999
+68, Lâm Đồng, Lam Dong, Tỉnh Lâm Đồng, Lam Dong Province, lam_dong, 11.693772499553324, 108.15275399999999
+80, Long An, Long An, Tỉnh Long An, Long An Province, long_an, 10.7, 106.16667
+82, Tiền Giang, Tien Giang, Tỉnh Tiền Giang, Tien Giang Province, tien_giang, 10.442054, 106.364861
+83, Bến Tre, Ben Tre, Tỉnh Bến Tre, Ben Tre Province, ben_tre, 10.109363699443508, 106.55256699999998
+84, Trà Vinh, Tra Vinh, Tỉnh Trà Vinh, Tra Vinh Province, tra_vinh, 9.770460599427402, 106.35638059999998
+86, Vĩnh Long, Vinh Long, Tỉnh Vĩnh Long, Vinh Long Province, vinh_long, 10.25369, 105.9722
+87, Đồng Tháp, Dong Thap, Tỉnh Đồng Tháp, Dong Thap Province, dong_thap, 10.626665899473338, 105.63162180000002
+89, An Giang, An Giang, Tỉnh An Giang, An Giang Province, an_giang, 10.514902114868164, 105.11317919999999
+91, Kiên Giang, Kien Giang, Tỉnh Kiên Giang, Kien Giang Province, kien_giang, 9.91139449943376, 105.2533879
+92, Cần Thơ, Can Tho, Thành phố Cần Thơ, Can Tho City, can_tho, 10.090658899442543, 105.5799367
+93, Hậu Giang, Hau Giang, Tỉnh Hậu Giang, Hau Giang Province, hau_giang, 9.76331969942709, 105.6379524
+94, Sóc Trăng, Soc Trang, Tỉnh Sóc Trăng, Soc Trang Province, soc_trang, 9.586778899419848, 105.9468456
+95, Bạc Liêu, Bac Lieu, Tỉnh Bạc Liêu, Bac Lieu Province, bac_lieu, 9.347731699411282, 105.50970639999998

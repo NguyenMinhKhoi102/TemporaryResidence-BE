@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="CT05_template" pageWidth="595" pageHeight="842" columnWidth="324" leftMargin="85" rightMargin="56" topMargin="56" bottomMargin="56" uuid="89631faa-646b-4b34-936f-818ff73b5980">
+	<parameter name="organ1" class="java.lang.String"/>
+	<parameter name="organ2" class="java.lang.String"/>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="identify" class="java.lang.String"/>
+	<parameter name="phone" class="java.lang.String"/>
+	<parameter name="email" class="java.lang.String"/>
+	<parameter name="pernamentAddress" class="java.lang.String"/>
+	<parameter name="temporaryAddress" class="java.lang.String"/>
+	<parameter name="currentAddress" class="java.lang.String"/>
+	<parameter name="case" class="java.lang.String"/>
+	<parameter name="additionalFile" class="java.lang.String"/>
+	<parameter name="declareAgain" class="java.lang.String"/>
+	<parameter name="otherInstructions" class="java.lang.String"/>
+	<parameter name="reason" class="java.lang.String"/>
+	<parameter name="phoneOrgan" class="java.lang.String"/>
+	<parameter name="day" class="java.lang.String"/>
+	<parameter name="month" class="java.lang.String"/>
+	<parameter name="year" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="90" splitType="Stretch">
+			<staticText>
+				<reportElement x="90" y="0" width="260" height="20" uuid="2cc04778-e2e4-469e-bbed-7526abdb7bf0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="20" width="180" height="20" uuid="9b8561e5-0ca7-40cf-af7a-6bf66fa28011"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Độc lập - Tự do - Hạnh phúc]]></text>
+			</staticText>
+			<line>
+				<reportElement x="129" y="40" width="180" height="1" uuid="89026f0f-f877-4cbf-bab5-39dc59a3a5df"/>
+			</line>
+			<staticText>
+				<reportElement positionType="Float" x="360" y="0" width="125" height="40" uuid="81061a71-a4aa-4e17-ad6c-294358d93b33"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<text><![CDATA[Mẫu CT05 ban hành
+theo TT số 56/2021/TT-BCA 
+ngày 15/5/2021
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="60" width="454" height="20" uuid="5eb2bd4b-be95-497d-bc52-658e93e0440d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PHIẾU HƯỚNG DẪN BỔ SUNG HOÀN THIỆN HỒ SƠ]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="-60" y="20" width="150" height="20" uuid="3632c058-fc75-423f-b167-583666c699ba"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="styled">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($P{organ2}==null ? ".".repeat(50) :  ("<b>Công an " + $P{organ2} + "</b>")) + "(2)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="-60" y="0" width="150" height="20" uuid="093b5011-6246-4c38-9a79-b3e1e6899b97"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="styled">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($P{organ1}==null ? ".".repeat(50) :  ("<b>Công an " + $P{organ1} + "</b>")) + "(1)"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="397" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="454" height="20" uuid="a99fcb31-33d3-42c0-b7c7-a91c3e04747d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Hồ sơ của Ông/Bà: " + ($P{name}==null?"":$P{name})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="454" height="20" uuid="e2cf3b2f-fa4c-4bfc-81ea-0e351acf29c3"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số định danh cá nhân/CMND: " + ($P{identify}==null?"":$P{identify})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="40" width="454" height="30" uuid="fac88589-7cb8-4e1f-ae4e-0f21bc6013d5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nơi thường trú: " + ($P{pernamentAddress}==null ? "" :$P{pernamentAddress})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="70" width="454" height="30" uuid="55e2412e-f380-4577-8cd5-5836010388bf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nơi tạm trú: " + ($P{temporaryAddress}==null?"":$P{temporaryAddress})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="100" width="454" height="30" uuid="c18bac6d-63ea-40ef-864d-7d0fd4129867"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nơi ở hiện tại: " + ($P{currentAddress}==null?"":$P{currentAddress})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="130" width="454" height="20" uuid="846b7d40-77bb-4027-9545-8453346057a0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số điện thoại liên hệ: " + ($P{phone} == null ? " ".repeat(43) : $P{phone}) + "  Email: " + ($P{email} == null ? "" : $P{email})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="150" width="454" height="30" uuid="a9816b72-410e-44f3-a607-51f8ec38debc"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="styled">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nội dung yêu cầu giải quyết: " + ($P{case} == null ? "" : $P{case})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="180" width="454" height="30" uuid="0be352cd-c375-465b-a4ca-3ebd72eccdd2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" ".repeat(10) + "Qua nghiên cứu hồ sơ và căn cứ vào quy định của Luật Cư trú và các văn bản hướng dẫn thi hành, đề nghị Ông/Bà hoàn thiện hồ sơ gồm những nội dung sau:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="210" width="454" height="40" uuid="a4ecb04e-602b-4f92-bf5e-8c327246444e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" ".repeat(10) + "1. Bổ sung thêm các giấy tờ, thủ tục sau: " + ($P{additionalFile}==null?"":$P{additionalFile})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="250" width="454" height="39" uuid="01f2d5bb-6326-4ef8-90d8-17f67c46f859"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" ".repeat(10) + "2. Kê khai lại các biểu mẫu sau: " + ($P{declareAgain}==null?"":$P{declareAgain})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="289" width="454" height="36" uuid="29b6c24f-6a10-4041-a4e7-6867fcc127d5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" ".repeat(10) + "3. Hướng dẫn khác: " + ($P{otherInstructions}==null?"":$P{otherInstructions})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="325" width="454" height="36" uuid="ea194431-863a-4144-ad97-da4bc4950519"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" ".repeat(10) + "Lý do: " + ($P{reason}==null?"":$P{reason})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="361" width="454" height="36" uuid="85a907fe-4dd7-4a63-acb3-8cd1d2492c66"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" ".repeat(10) + "Trong quá trình hoàn thiện hồ sơ nếu có vấn đề vướng mắc, Ông/Bà liên hệ với Công an " + ($P{organ2}==null?".".repeat(30):$P{organ2}) + "; Số ĐT " + ($P{phoneOrgan}==null?".".repeat(30):$P{phoneOrgan}) + " để được hướng dẫn."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="169" splitType="Stretch">
+			<textField>
+				<reportElement x="230" y="0" width="224" height="70" uuid="d2372a74-1066-41b6-85ac-8d4221292604"/>
+				<textElement textAlignment="Center" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<i>" + ($P{organ2}==null?".".repeat(6):$P{organ2}) + ", ngày " + ($P{day}==null?".".repeat(6):$P{day}) + " tháng " + ($P{month}==null?".".repeat(6):$P{month}) + " năm " + ($P{year}==null?".".repeat(6):$P{year}) + "</i><br />CÁN BỘ TIẾP NHẬN HỒ SƠ<br /><i>(Ký, ghi rõ họ tên)</i><br /><i>(Chữ ký số của cán bộ tiếp nhận hồ sơ)</i>"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="123" width="454" height="20" uuid="194f0bce-d188-421e-8ad6-49164cdc0dd3"/>
+				<textElement verticalAlignment="Middle" markup="styled">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Chú thích:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="143" width="454" height="26" uuid="d60823e4-98f7-4531-bc7e-96a4c8ded28c"/>
+				<textElement markup="styled">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[<i>(1) Cơ quan cấp trên của cơ quan đăng ký cư trú.</i>
+<i>(2) Cơ quan đăng ký cư trú.</i>
+]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>
